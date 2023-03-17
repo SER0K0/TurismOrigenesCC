@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi primera página web</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .red {
+            background-color: red;
+            color: white;
+        }
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Hola mundo</h1>
     <p>Esta es mi primera página web creada con HTML.</p>
+    <button class="button red" onclick="changeColor('red')">Rojo</button>
+    <button class="button blue" onclick="changeColor('blue')">Azul</button>
+    <script>
+        function changeColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
 </body>
 </html>
