@@ -1,35 +1,38 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Mi primera página web</title>
-    <style>
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            border: none;
-            cursor: pointer;
+<html>
+   <head>
+      <style>
+        h1,p{
+            color: orange;
         }
-        .red {
-            background-color: red;
-            color: white;
+        body {
+         background-image: url("fondo.webp");
+         background-repeat: no-repeat;
         }
-        .blue {
-            background-color: blue;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <h1>Bienvenido a TurismOrigenesCC</h1>
-    <p><img src="imagen.jpg" alt="Imagen" width="639" height="695" /></p>
-    <button class="button red" onclick="changeColor('red')">Rojo</button>
-    <button class="button blue" onclick="changeColor('blue')">Azul</button>
-    <script>
-        function changeColor(color) {
-            document.body.style.backgroundColor = color;
-        }
-    </script>
-</body>
+         /* Estilos para los botones */
+         .boton {
+         display: inline-block;
+         padding: 10px 20px;
+         border-radius: 20px;
+         background-color: green;
+         color: white;
+         text-decoration: none;
+         }
+         @media screen and (max-width: 600px) {
+         .boton {
+         width: 80%;
+         font-size: 20px;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <h1 class="h1">Página web de visitas turísticas</h1>
+      <p>Bienvenido a nuestra página web. Aquí podrás encontrar información sobre los mejores lugares para visitar en nuestra ciudad.</p>
+      <img src="caceres.jpg" alt="Portada">
+      <p>Si quieres contactar con nosotros, puedes usar los siguientes botones:</p>
+      <!-- Botón para llamar -->
+      <a href="tel:+34600372390" class="boton"><img src="telefono.png" alt="Llamar ahora" width="30"></a>
+      <!-- Botón para whatsapp -->
+      <a href="https://wa.me/+34600372390" class="boton"><img src="whatsapp.png" alt="Enviar mensaje" width="40"></a>
+   </body>
 </html>
