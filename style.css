@@ -38,7 +38,7 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-  background: crimson;
+  background: #9E0BBF;
   z-index: 100;
 }
 
