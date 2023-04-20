@@ -21,7 +21,7 @@ body {
 .history-tl-container ul.tl li {
     list-style: none;
     margin: auto;
-    margin-left: 200px;
+    margin-left: 50px;
     min-height: 50px;
     /*background: rgba(255,255,0,0.1);*/
     border-left: 1px dashed black;
@@ -39,7 +39,7 @@ body {
     top: -25px;
     content: " ";
     border: 15px solid rgba(255, 255, 255, 0.74);
-    border-radius: 500%;
+    border-radius: 100%;
     background: black;
     height: 50px;
     width: 50px;
@@ -60,7 +60,7 @@ ul.tl li .item-detail {
 }
 
 ul.tl li img {
-    width: 100%;
+    width: 200%;
     height: auto;
     border-radius: 5px;
 }
