@@ -29,6 +29,7 @@ body {
     background-color: #f8f9fa;
     color: #333;
     background: linear-gradient(to left bottom, #EDCD05, #FFF); 
+	font-family: 'Dimis';
    
 }
 
@@ -105,10 +106,11 @@ ul li:last-child {
 
 .container h2 {
     font-family: var(--font-dimis);
+	font-size: calc(2vw + 2vh);
 }
 
 .container p {
-    font-size: calc(1vw + 1vh);
+    font-size: calc(2vw + 2vh);
 	font-family: var(--font-dimis);
 }
 
