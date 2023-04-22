@@ -106,11 +106,11 @@ ul li:last-child {
 
 .container h2 {
     font-family: var(--font-dimis);
-	font-size: calc(2vw + 2vh);
+	font-size: calc(1vw + 1vh);
 }
 
 .container p {
-    font-size: calc(2vw + 2vh);
+    font-size: calc(1vw + 1vh);
 	font-family: var(--font-dimis);
 }
 
@@ -262,7 +262,7 @@ h4 {
     position: relative;
     width: 100%;
     height: 650px;
-    background: #4C0B5F;
+    background: #FFF;
     overflow: hidden;
   }
 
