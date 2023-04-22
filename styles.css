@@ -306,3 +306,11 @@ h4 {
     }
   }
   
+.eltd {
+	width:300px;
+	padding-left:80px;
+}
+.elhr {
+	margin-top:-5px;
+	height:1px;border-width:0;background-color:black
+}
