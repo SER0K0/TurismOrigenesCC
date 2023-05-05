@@ -1,3 +1,7 @@
+.html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Dimis';
     src: url(ressources/fonts/fuente.ttf);
@@ -14,9 +18,6 @@
     --black: #000000;
 }
 
-.video-container {
-    aspect-ratio: 16/9;
-}
 
 iframe {
     border: none;
@@ -82,7 +83,7 @@ ul li:last-child {
     border-bottom: none;
 }
 
-
+b{font-family: var(--font-dimis);}
 
 .containerMenu {
     text-align: center;
@@ -131,6 +132,19 @@ ul li:last-child {
 }
 
 
+.container button {
+	font-family: var(--font-dimis);
+	border-radius: 12px;
+	font-size: 150%;
+	width: 100%;
+	background-color: #000;
+	border: 2px solid #000;
+	text-shadow: 1px 1px 3px white;
+	color:white;
+	align:center;
+	
+}
+
 .container {
     margin: 30px auto;
 }
@@ -169,16 +183,10 @@ ul li:last-child {
 	font-weight: bold;
 }
 
-
-
 .container .tablamenu .button :hover {
   background-color: #FFF; /* Green */
   color: white;
 }
-
-
-
-
 
 .container h2 {
     font-family: var(--font-dimis);
