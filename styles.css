@@ -141,7 +141,8 @@ b{font-family: var(--font-dimis);}
 	border: 2px solid #000;
 	text-shadow: 1px 1px 3px white;
 	color:white;
-	align:center;
+	text-align:center;
+	width:50%;
 	
 }
 
@@ -186,6 +187,7 @@ b{font-family: var(--font-dimis);}
 .container .tablamenu .button :hover {
   background-color: #FFF; /* Green */
   color: white;
+  
 }
 
 .container h2 {
