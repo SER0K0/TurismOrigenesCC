@@ -31,6 +31,7 @@ body {
     color: #333;
     background: linear-gradient(to left bottom, #0BF83A, #FFF); 
 	font-family: 'Dimis';
+	
    
 }
 
@@ -84,6 +85,14 @@ ul li:last-child {
 }
 
 b{font-family: var(--font-dimis);}
+
+.calendario {
+	  position: relative;
+    width: 100%;
+    height: relative;
+    background: #FFF;
+    overflow: hidden;
+}
 
 .containerMenu {
     text-align: center;
@@ -147,7 +156,7 @@ b{font-family: var(--font-dimis);}
 }
 
 .container {
-    margin: 30px auto;
+    margin: -30px auto;
 }
 
 .container h1 {
@@ -166,13 +175,15 @@ b{font-family: var(--font-dimis);}
     margin: 0 auto;
 	border-spacing: 1px;
     width:90%;
+   /*border: red 5px solid;*/
 
 }
 
-
 .container .tdtabla1 {
-	 width: 40%;
-	 text-align:justify;
+	 width: 50%;
+	 text-align:left;
+	/* border: red 5px solid;*/
+	 
 }
 
 .container .subtitle {
